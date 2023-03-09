@@ -1,0 +1,18 @@
+1. Select * from film
+Where title and description;
+
+2.Select * from film 
+Where length > 60 and length < 75;
+
+3.Select * from film
+rental_rate=0.99 AND replacement_cost=12.99 OR replacement_cost=28.99;
+
+
+
+
+4.Select * from customer 
+Where first_name='Mary' AND last_name=?;
+
+
+5.Select * from film 
+Where NOT length > 50 AND rental_rate=2.99 OR rental rate=4.99;
