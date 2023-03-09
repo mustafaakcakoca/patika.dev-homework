@@ -1,0 +1,9 @@
+1.Select * from film
+Where replacement cost BETWEEN replacement cost =>12.99 AND replacement cost < 16.99;
+
+2.Select * from actor 
+Where first_name IN ('Penelope,Nick,Ed);
+ 
+
+3.Select * from film 
+Where rental_rate IN (0.99,2.99,4.99) AND replacement_cost IN (12.99,15.99,28.99);
